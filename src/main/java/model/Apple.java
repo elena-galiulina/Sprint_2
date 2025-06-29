@@ -1,7 +1,6 @@
 package model;
 
 import static model.constants.Colour.COLOUR_RED;
-import static model.constants.Colour.COLOUR_GREEN;
 import static model.constants.Discount.DISCOUNT_SIXTY;
 import static model.constants.Discount.DISCOUNT_ZERO;
 

@@ -9,8 +9,8 @@ public class ShoppingCart {
     }
     public double getTotalPriceWhithoutDiscount(){
         double totalPriceWhithoutDiscount = 0;
-        for (int i=0; i < cart.length; i++){
-            totalPriceWhithoutDiscount += cart[i].getTotalPrice();
+        for (Food food : cart){
+            totalPriceWhithoutDiscount += food.getTotalPrice();
         }
         return totalPriceWhithoutDiscount;
     }
